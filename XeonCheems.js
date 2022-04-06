@@ -590,7 +590,7 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
             }
             break
 	    case 'donasi': case 'donate': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
-                XeonBotInc.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/6ba2aed566865a068e91f.jpg' }, caption: `*Hi bro ${m.pushName}*\n\n Bot Rental Price\n⭔ 250INR Per Group via Gpay/paytm/phonepe 1 Month\n\nFor more details, you can chat with the owner\nhttps://wa.me/6283819082780 (Owner)\n\nDonate Me : \n\n⭔ Fampay : https://telegra.ph/file/6ba2aed566865a068e91f.jpg\n⭔ Paytm : https://telegra.ph/file/577bd4f28d90ca2c7f369.jpg` }, { quoted: m })
+                XeonBotInc.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/6ba2aed566865a068e91f.jpg' }, caption: `*Hi bro ${m.pushName}*\n\n Bot Rental Price\n⭔ 10k Per Group via Gpay/paytm/phonepe 1 Month\n\nFor more details, you can chat with the owner\nhttps://wa.me/6283819082780 (Owner)\n\nDonate Me : \n\n⭔ Fampay : https://telegra.ph/file/6ba2aed566865a068e91f.jpg\n⭔ Paytm : https://telegra.ph/file/577bd4f28d90ca2c7f369.jpg` }, { quoted: m })
             }
             break
             case 'sc': case 'script': {
@@ -2386,12 +2386,12 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedFooterText: `Kyuraz Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
+                                    displayText: 'YouTube',
                                     url: 'https://youtu.be/imFIX-Wrt3s'
                                 }
                             }, {
                             	urlButton: {
-                                displayText: 'Script🔖',
+                                displayText: 'Script',
                                     url: 'https://github.com/Vikoleonidas/CheemsBot-MD'
                                 }
                             }, {
@@ -2406,7 +2406,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: 'lOwner',
+                                    displayText: 'Owner',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -2446,27 +2446,27 @@ Please Select Button Below
 `,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
+                                    displayText: 'YouTube',
                                     url: 'https://youtu.be/imFIX-Wrt3s'
                                 }
                             }, {
                             	urlButton: {
-                                displayText: 'Script🔖',
+                                displayText: 'Script',
                                     url: 'https://github.com/Vikoleonidas/CheemsBot-MD'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '🍇All Menu🍇',
+                                    displayText: 'All Menu',
                                     id: `${prefix}allmenu`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '🍒List Menu🍒',
+                                    displayText: 'List Menu',
                                     id: `${prefix}command`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: 'Owner',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -2616,12 +2616,12 @@ case 'grupmenu': {
                             hydratedFooterText: `Kyuraz Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
+                                    displayText: 'YouTube',
                                     url: 'https://youtu.be/imFIX-Wrt3s'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: 'Owner',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -2658,12 +2658,12 @@ case 'downloadmenu': {
                             hydratedFooterText: `Kyuraz Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
+                                    displayText: 'YouTube',
                                     url: 'https://youtu.be/imFIX-Wrt3s'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: 'Owner',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -2695,12 +2695,12 @@ case 'downloadmenu': {
                             hydratedFooterText: `Kyuraz Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
+                                    displayText: 'YouTube',
                                     url: 'https://youtu.be/imFIX-Wrt3s'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: 'Owner',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -2726,12 +2726,12 @@ case 'randommenu': {
                             hydratedFooterText: `Kyuraz Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
+                                    displayText: 'YouTube',
                                     url: 'https://youtu.be/imFIX-Wrt3s'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: 'Owner',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -2758,12 +2758,12 @@ case 'funmenu': {
                             hydratedFooterText: `Kyuraz Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
+                                    displayText: 'YouTube',
                                     url: 'https://youtu.be/imFIX-Wrt3s'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: 'Owner',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -2798,12 +2798,12 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedFooterText: `Kyuraz Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
+                                    displayText: 'YouTube',
                                     url: 'https://youtu.be/imFIX-Wrt3s'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: 'Owner',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -2832,12 +2832,12 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedFooterText: `Kyuraz Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
+                                    displayText: 'YouTube',
                                     url: 'https://youtu.be/imFIX-Wrt3s'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: 'Owner',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -2890,12 +2890,12 @@ case 'horoscopemenukcodk': {
                             hydratedFooterText: `Kyuraz Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
+                                    displayText: 'YouTube',
                                     url: 'https://youtu.be/imFIX-Wrt3s'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: 'Owner',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -2928,12 +2928,12 @@ case 'convertmenu': {
                             hydratedFooterText: `Kyuraz Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
+                                    displayText: 'YouTube',
                                     url: 'https://youtu.be/imFIX-Wrt3s'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: 'Owner',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -2968,12 +2968,12 @@ case 'nocategorymenu': {
                             hydratedFooterText: `Kyuraz Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
+                                    displayText: 'YouTube',
                                     url: 'https://youtu.be/imFIX-Wrt3s'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: 'Owner',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -3005,12 +3005,12 @@ case 'databasemenu': {
                             hydratedFooterText: `Kyuraz Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
+                                    displayText: 'YouTube',
                                     url: 'https://youtu.be/imFIX-Wrt3s'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: 'Owner',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -3037,12 +3037,12 @@ case 'anonymouschatmenu': {
                             hydratedFooterText: `Kyuraz Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
+                                    displayText: 'YouTube',
                                     url: 'https://youtu.be/imFIX-Wrt3s'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: 'Owner',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -3069,12 +3069,12 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedFooterText: `Kyuraz Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
+                                    displayText: 'YouTube',
                                     url: 'https://youtu.be/imFIX-Wrt3s'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: 'Owner',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -3106,12 +3106,12 @@ break
                             hydratedFooterText: `Kyuraz Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
+                                    displayText: 'YouTube',
                                     url: 'https://youtu.be/imFIX-Wrt3s'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: 'Owner',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -3247,12 +3247,12 @@ break
                             hydratedFooterText: `Kyuraz Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
+                                    displayText: 'YouTube',
                                     url: 'https://youtu.be/imFIX-Wrt3s'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '👤Owner👤',
+                                    displayText: 'Owner',
                                     id: `${prefix}owner`
                                 }
                             }]
