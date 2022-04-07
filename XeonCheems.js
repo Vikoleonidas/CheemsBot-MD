@@ -594,7 +594,7 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
             }
             break
             case 'sc': case 'script': {
-                reply('Script : https://github.com/Vikoleonidas/CheemsBot-MD\n Dont Forget To Give Star\n\nYoutube : https://youtu.be/imFIX-Wrt3s\n Dont Forget To Subscribe')
+                reply('Script : https://github.com/Vikoleonidas/KyurazV4-MD\n Dont Forget To Give Star\n\nYoutube : https://youtu.be/imFIX-Wrt3s\n Dont Forget To Subscribe')
             }
             break
             case 'chat': {
@@ -1210,7 +1210,7 @@ case 'antilink':
                     let btn = [{
                                 urlButton: {
                                     displayText: 'YouTube',
-                                    url: 'https://github.com/Vikoleonidas/CheemsBot-MD'
+                                    url: 'https://github.com/Vikoleonidas/KyurazV4-MD'
                                 }
                             }, {
                                 callButton: {
@@ -1250,7 +1250,7 @@ case 'antilink':
 		    let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://github.com/Vikoleonidas/CheemsBot-MD'
+                                    url: 'https://github.com/Vikoleonidas/KyurazV4-MD'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2392,7 +2392,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             }, {
                             	urlButton: {
                                 displayText: 'Script',
-                                    url: 'https://github.com/Vikoleonidas/CheemsBot-MD'
+                                    url: 'https://github.com/Vikoleonidas/KyurazV4-MD'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2452,7 +2452,7 @@ Please Select Button Below
                             }, {
                             	urlButton: {
                                 displayText: 'Script',
-                                    url: 'https://github.com/Vikoleonidas/CheemsBot-MD'
+                                    url: 'https://github.com/Vikoleonidas/KyurazV4-MD'
                                 }
                             }, {
                                 quickReplyButton: {
